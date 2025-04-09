@@ -7,8 +7,6 @@
   src: url("../erbos-draco-1st-nbp.otf") format("opentype");
 }
 body {
-  margin: 0;
-  padding: 0;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/v14_3.png');
   background-size: cover;
   background-position: center;
@@ -20,22 +18,31 @@ body {
 
 .scoreboard {
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
+  justify-content: center;
+  align-items: center;
   margin-top: 50px;
+  position: relative;
+}
+
+.scoreboard-container {
+  display: flex;
+  flex-direction: row; /* Align in a row */
+  justify-content: space-around; /* Distribute the items evenly */
+  align-items: center; /* Align vertically */
+  width: 100%;
+  text-align: center;
 }
 
 .scoreboard-content {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  position: relative;
-  top: -300px;
-  gap: 230px;
-  
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  gap: 15px;
 }
+
 
 h2 {
   font-family: "Bungee", sans-serif;
@@ -46,7 +53,7 @@ h2 {
 }
 
 #team-a-score, #team-b-score {
-  margin: 20px 0px 40px 0px;
+  margin: 50px 0px 50px 0px;
   font-family: erbos-draco;
   font-size: 9em
 }
@@ -63,5 +70,32 @@ button {
   font-family: "Bungee", sans-serif;
   font-weight: 700;
   font-size: 25px;
+}
+
+.scoreboard-container {
+  display: flex;
+  flex-direction: row; /* Ensure flex direction is row */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Align items vertically in the container */
+  width: 100%; /* Ensure it takes full width */
+  text-align: center;
+}
+
+
+
+
+.title {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+#timer {
+  font-family: 'Cursed Timer ULiL', sans-serif;
+  font-size: 4em;
+}
+
+#start-button, #stop-button, #reset-button {
+  font-size: 1em;
+  padding: 5px 10px;
 }
 
