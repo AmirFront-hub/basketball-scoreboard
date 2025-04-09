@@ -3,13 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Erbos+Draco+1st+NBP&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=BACK+TO+SCHOOL+PERSONAL+USE&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Cursed+Timer+ULiL&display=swap" rel="stylesheet" />
-    <link href="./css/main.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    <link href="./css/main.css" rel="stylesheet">
     <title>Basketball Scoreboard</title>
 </head>
 <body>
+    <div class="scoreboard">
+        <!-- This is where the background image should go -->
+        <img src="./images/v45_20.png" alt="Scoreboard background" class="scoreboard-img">
+    </div>
+
+    <div class="scoreboard-container">  
+        <div class="scoreboard-content">
+            <div class="team" id="team-a">
+                <h2>Team A</h2>
+                <p id="team-a-score">0</p>
+                <div class="button-container">
+                    <button onclick="addPoint(1, 'team-a-score')">+1</button>
+                    <button onclick="addPoint(2, 'team-a-score')">+2</button>
+                    <button onclick="addPoint(3, 'team-a-score')">+3</button>
+                </div>
+            </div>
+
+            <div class="middle-container">
+                <h2 class="title">Timer</h2>
+                <div id="timer">00:00</div>
+                <div id="button-timer-container">
+                    <button id="start-button" onclick="startTimer()">Start</button>
+                    <button id="stop-button" onclick="stopTimer()">Stop</button>
+                    <button id="reset-button" onclick="resetTimer()">Reset</button>
+                </div>
+            </div>
+
+            <div class="team" id="team-b">
+                <h2>Team B</h2>
+                <p id="team-b-score">0</p>
+                <div class="button-container">
+                    <button onclick="addPoint(1, 'team-b-score')">+1</button>
+                    <button onclick="addPoint(2, 'team-b-score')">+2</button>
+                    <button onclick="addPoint(3, 'team-b-score')">+3</button>
+                </div>
+            </div>
+        </div>
+    </div>
     
+    <script src="script.js"></script>
 </body>
 </html>
