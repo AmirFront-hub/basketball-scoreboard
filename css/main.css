@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.v13_2 {
+  width: 100%;
+  height: 900px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v14_3 {
+  width: 100%;
+  height: 900px;
+  background: url("../images/v14_3.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v14_4 {
+  width: 100%;
+  height: 900px;
+  background: rgba(0,0,0,0.6000000238418579);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.v45_20 {
+  width: 720px;
+  height: 495px;
+  background: url("../images/v45_20.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 203px;
+  left: 360px;
+  overflow: hidden;
+}
+.v16_4 {
+  width: 45px;
+  color: rgba(181,14,14,1);
+  position: absolute;
+  top: 602px;
+  left: 381px;
+  font-family: Erbos Draco 1st NBP;
+  font-weight: Regular;
+  font-size: 50px;
+  opacity: 1;
+  text-align: left;
+}
+.v16_8 {
+  width: 45px;
+  color: rgba(181,14,14,1);
+  position: absolute;
+  top: 602px;
+  left: 558px;
+  font-family: Erbos Draco 1st NBP;
+  font-weight: Regular;
+  font-size: 50px;
+  opacity: 1;
+  text-align: left;
+}
+.v16_5 {
+  width: 45px;
+  color: rgba(181,14,14,1);
+  position: absolute;
+  top: 602px;
+  left: 448px;
+  font-family: Erbos Draco 1st NBP;
+  font-weight: Regular;
+  font-size: 50px;
+  opacity: 1;
+  text-align: left;
+}
+.v16_9 {
+  width: 45px;
+  color: rgba(181,14,14,1);
+  position: absolute;
+  top: 602px;
+  left: 491px;
+  font-family: Erbos Draco 1st NBP;
+  font-weight: Regular;
+  font-size: 50px;
+  opacity: 1;
+  text-align: left;
+}
+.v16_7 {
+  width: 45px;
+  color: rgba(181,14,14,1);
+  position: absolute;
+  top: 602px;
+  left: 515px;
+  font-family: Erbos Draco 1st NBP;
+  font-weight: Regular;
+  font-size: 50px;
+  opacity: 1;
+  text-align: left;
+}
+.v16_10 {
+  width: 45px;
+  color: rgba(181,14,14,1);
+  position: absolute;
+  top: 602px;
+  left: 424px;
+  font-family: Erbos Draco 1st NBP;
+  font-weight: Regular;
+  font-size: 50px;
+  opacity: 1;
+  text-align: left;
+}
+.v16_2 {
+  width: 67px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 488px;
+  left: 434px;
+  font-family: Erbos Draco 1st NBP;
+  font-weight: Regular;
+  font-size: 150px;
+  opacity: 1;
+  text-align: left;
+}
+.v16_11 {
+  width: 67px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 488px;
+  left: 505px;
+  font-family: Erbos Draco 1st NBP;
+  font-weight: Regular;
+  font-size: 150px;
+  opacity: 1;
+  text-align: left;
+}
+.v16_3 {
+  width: 146px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 407px;
+  left: 394px;
+  font-family: BACK TO SCHOOL PERSONAL USE;
+  font-weight: Regular;
+  font-size: 64px;
+  opacity: 1;
+  text-align: left;
+}
+.v16_12 {
+  width: 168px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 407px;
+  left: 545px;
+  font-family: BACK TO SCHOOL PERSONAL USE;
+  font-weight: Regular;
+  font-size: 64px;
+  opacity: 1;
+  text-align: left;
+}
+.v16_13 {
+  width: 219px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 488px;
+  left: 609px;
+  font-family: Cursed Timer ULiL;
+  font-weight: Regular;
+  font-size: 70px;
+  opacity: 1;
+  text-align: left;
+}
