@@ -54,14 +54,14 @@ h2 {
 button {
   background-color: #B60E0E;
   border: none;
-  color: white;
-  padding: 10px 20px;
+  color: rgb(230, 230, 230);
+  padding: 5px 17px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
   font-family: "Bungee", sans-serif;
   font-weight: 700;
-  font-size: 1em;
+  font-size: 25px;
 }
 
