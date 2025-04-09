@@ -3,13 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Erbos+Draco+1st+NBP&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=BACK+TO+SCHOOL+PERSONAL+USE&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Cursed+Timer+ULiL&display=swap" rel="stylesheet" />
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+
+
     <link href="./css/main.css" rel="stylesheet" />
     <title>Basketball Scoreboard</title>
 </head>
 <body>
-    <img src="./images/v45_20.png" alt="" class="Scoreboard" />
+    <img src="./images/v45_20.png" alt="" class="scoreboard" />
+    <div class="scoreboard-container">  
+        <div class="scoreboard-content">
+            
+            <div class="teamA">
+                <h2>Team A</h2>
+                <p id="team-a-score">0</p>
+                <div class="button-container">
+                    <button onclick="addpointone()">+1</button>
+                    <button onclick="addpointtwo()">+2</button>
+                    <button onclick="addpointtthree()">+3</button>
+                </div>
+            </div>
+
+            <div class="teamB">
+                <h2>Team B</h2>
+                <p id="team-b-score">0</p>
+                <div class="button-container">
+                    <button onclick="addpointone()">+1</button>
+                    <button onclick="addpointtwo()">+2</button>
+                    <button onclick="addpointtthree()">+3</button>
+            </div>
+        </div>
+    
+    </div>
 </body>
 </html>

@@ -1,14 +1,67 @@
 * {
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: erbos-draco;
+  src: url("../erbos-draco-1st-nbp.otf") format("opentype");
+}
 body {
   margin: 0;
   padding: 0;
-  background-image: url('../images/v14_3.png'); 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/v14_3.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 100vh;
+  box-shadow: 100px 100px 0px 0px rgba(0, 0, 0, 0.5);
+
 }
 
+.scoreboard {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.scoreboard-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  top: -300px;
+  gap: 230px;
+  
+}
+
+h2 {
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 3em;
+  margin: 0%;
+}
+
+#team-a-score, #team-b-score {
+  margin: 20px 0px 40px 0px;
+  font-family: erbos-draco;
+  font-size: 9em
+}
+
+button {
+  background-color: #B60E0E;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-family: "Bungee", sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+}
 
